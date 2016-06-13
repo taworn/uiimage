@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_crop"
+        android:icon="@drawable/ic_crop_white_24dp"
+        android:title="@string/action_crop"
+        app:showAsAction="always|withText"/>
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_crop_type_circle"
+            android:title="@string/action_crop_type_circle"/>
+        <item
+            android:id="@+id/action_crop_type_round_rectangle"
+            android:title="@string/action_crop_type_round_rectangle"/>
+        <item
+            android:id="@+id/action_crop_type_rectangle"
+            android:title="@string/action_crop_type_rectangle"/>
+    </group>
+
+</menu>
