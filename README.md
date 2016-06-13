@@ -1,0 +1,1 @@
+A program that crop picture, make circle and then save.

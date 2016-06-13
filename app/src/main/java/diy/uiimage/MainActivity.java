@@ -133,9 +133,9 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_about) {
             new AlertDialog.Builder(MainActivity.this)
                     .setIcon(R.mipmap.ic_launcher)
-                    .setTitle("About")
-                    .setMessage("Cropman v1.0\nImage cropping")
-                    .setNegativeButton("OK", null)
+                    .setTitle(R.string.about_dialog_title)
+                    .setMessage(R.string.about_dialog_message)
+                    .setPositiveButton(R.string.about_dialog_positive, null)
                     .show();
             return true;
         }

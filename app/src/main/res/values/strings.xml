@@ -2,8 +2,13 @@
 
     <string name="app_name">UI Image</string>
     <string name="action_about">About</string>
-    <string name="title_activity_crop_image">Crop Image</string>
+    <string name="about_dialog_title">About</string>
+    <string name="about_dialog_message">UI Image v1.0\nImage Cropping</string>
+    <string name="about_dialog_positive">OK</string>
+    <string name="button_camera_text">Take Camera</string>
+    <string name="button_file_text">Take File</string>
 
+    <string name="title_activity_crop_image">Crop Image</string>
     <string name="action_crop">Crop</string>
     <string name="action_crop_type_circle">Circle</string>
     <string name="action_crop_type_round_rectangle">Round Rectangle</string>
